@@ -20,7 +20,7 @@ two_classes_two_obs_as_list <- list(class_labels = rep(c("class1",
 # Expected function outputs for test cases --------------------------------
 
 two_classes_2_obs_output <- data.frame(class = c("class1", "class2"),
-                                         count = c(2,2))
+                                         count = c(2,3))
 two_classes_2_and_1_obs_output <- data.frame(class = c("class1", "class2"),
                                              count = c(2, 1))
 one_class_2_obs_output <- data.frame(class = "class1",
